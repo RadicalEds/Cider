@@ -3,7 +3,7 @@
 VERSION="0.1"
 NAME="Cider"
 AUTHOR="RadicalEd"
-DESCRIPTION="check if IP addresses are within CIDR addresses"
+DESCRIPTION="Check if IP Addresses are within CIDR Addresses"
 LICENSE=""
 PROGRAM=$0
 BANNERCOLOR="cyan"
@@ -64,9 +64,9 @@ $(c $HIGHLIGHT)USAGE$(c n): $PROGRAM [-h] <url/ip/list> <CIDR...>
 	-h : show usage
 
 	<url/ip/list> : IP, Url, Domain, or a file that lists these
-	<CIDR...>	  : CIDR addresses, can also be list files
+	<CIDR...>     : CIDR Addresses, can also be files that list
 
-	This tool is useful to check if hosts are within scope.
+	This tool is useful to check if targets are within scope.
 EOF
 }
 
